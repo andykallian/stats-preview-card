@@ -60,7 +60,7 @@ body{
 .top{
   background-image: url(images/image-header-mobile.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(220deg) saturate(600%) contrast(0.8);
 
   border-top-right-radius: .7rem;
@@ -176,7 +176,6 @@ body{
 
   .top{
     background-image: url(images/image-header-desktop.jpg);
-    background-size: cover;
     width: 54rem;
     height: 100%;
     border-bottom-right-radius: 0.7rem;
